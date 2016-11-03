@@ -1,0 +1,23 @@
+{
+  "name": "build-graph-from-json",
+  "version": "0.0.0",
+  "description": "Given a JSON object, it builds nodes and edges tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasset/build-graph-from-json.git"
+  },
+  "keywords": [
+    "json",
+    "graph"
+  ],
+  "author": "Pierre-Olivier Chasset <pierre-olivier@chasset.net> (http://pierre-olivier.chasset.net)",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/chasset/build-graph-from-json/issues"
+  },
+  "homepage": "https://github.com/chasset/build-graph-from-json#readme"
+}
