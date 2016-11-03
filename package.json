@@ -1,8 +1,8 @@
 {
   "name": "build-graph-from-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Given a JSON object, it builds nodes and edges tables",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha test/*.js"
   },
