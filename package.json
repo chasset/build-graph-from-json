@@ -1,0 +1,42 @@
+{
+  "name": "build-graph-from-json",
+  "version": "0.0.0",
+  "description": "Given a JSON object, it builds nodes and edges tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasset/build-graph-from-json.git"
+  },
+  "keywords": [
+    "json",
+    "graph"
+  ],
+  "author": "Pierre-Olivier Chasset <pierre-olivier@chasset.net> (http://pierre-olivier.chasset.net)",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/chasset/build-graph-from-json/issues"
+  },
+  "homepage": "https://github.com/chasset/build-graph-from-json#readme",
+  "dependencies": {
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.1.2",
+    "run-sequence": "^1.2.2",
+    "unit.js": "^2.0.0"
+  }
+}
